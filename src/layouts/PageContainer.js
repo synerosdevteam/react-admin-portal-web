@@ -11,7 +11,7 @@ import { theme } from "../theme/theme";
 import hydMetroLogo from "../assets/images/hyd_metro_logo.png";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
 import { Avatar, Badge, Box, IconButton, Typography } from "@mui/material";
-import NotificationsIcon from "@mui/icons-material/Notifications";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import GroupIcon from "@mui/icons-material/Group";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 
@@ -113,7 +113,7 @@ export default function MainContainer() {
       router={router}
       theme={theme}
       branding={{
-        title: "Hyderabad Metro",
+        title: "Hyderabad Metro Rail",
         logo: <img src={hydMetroLogo} alt="Hyd Metro" style={{ height: 40 }} />,
       }}
       localeText={<Typography>h1</Typography>}
@@ -131,7 +131,7 @@ export default function MainContainer() {
       >
         <IconButton color="inherit">
           <Badge badgeContent={3} color="error">
-            <NotificationsIcon />
+            <NotificationsNoneIcon />
           </Badge>
         </IconButton>
         <IconButton>
