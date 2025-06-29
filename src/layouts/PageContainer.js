@@ -14,6 +14,7 @@ import { Avatar, Badge, Box, IconButton, Typography } from "@mui/material";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import GroupIcon from "@mui/icons-material/Group";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import Dashboard from "../features/Dashboard";
 
 const NAVIGATION = [
   {
@@ -141,7 +142,8 @@ export default function MainContainer() {
 
       <DashboardLayout>
         <PageContainer>
-          <Grid container spacing={1}>
+          <Dashboard />
+          {/* <Grid container spacing={1}>
             <Grid size={5} />
             <Grid size={12}>
               <Skeleton height={14} />
@@ -175,7 +177,7 @@ export default function MainContainer() {
             <Grid size={3}>
               <Skeleton height={100} />
             </Grid>
-          </Grid>
+          </Grid> */}
         </PageContainer>
       </DashboardLayout>
     </AppProvider>

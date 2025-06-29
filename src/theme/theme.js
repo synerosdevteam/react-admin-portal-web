@@ -16,6 +16,9 @@ export const theme = createTheme({
   // cssVariables: {
   //   colorSchemeSelector: "class",
   // },
+  typography: {
+    fontFamily: "Poppins, sans-serif",
+  },
   breakpoints: {
     values: {
       xs: 0,

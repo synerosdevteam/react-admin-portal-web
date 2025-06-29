@@ -1,10 +1,10 @@
 import "./App.css";
-import MainContainer from "./layouts/PageContainer";
+import MainLayout from "./layouts/MainLayout";
 
 function App() {
   return (
     <>
-      <MainContainer />
+      <MainLayout />
     </>
   );
 }
